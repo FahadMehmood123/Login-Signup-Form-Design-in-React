@@ -23,7 +23,7 @@ function Grandchild() {
         >
         <h2>Your Website Name<br></br>
           Here</h2>
-        <p>Already have an account? <button onClick={handleClick}>Signup</button></p>
+        <p>Don't have an account? <button onClick={handleClick}>Signup</button></p>
         <input id='int' type='text' placeholder='Teacher ID' ></input>
         <input id='int' type='text' placeholder='Password'></input><br></br>
         <input type='button' value='Submit'></input>
