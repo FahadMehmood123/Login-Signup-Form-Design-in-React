@@ -24,9 +24,9 @@ function Grandchild() {
         <h2>Your Website Name<br></br>
           Here</h2>
         <p>Don't have an account? <button onClick={handleClick}>Signup</button></p>
-        <input id='int' type='text' placeholder='Teacher ID' ></input>
-        <input id='int' type='text' placeholder='Password'></input><br></br>
-        <input type='button' value='Submit'></input>
+        <input id='int1' type='text' placeholder='Teacher ID' ></input>
+        <input id='int2' type='text' placeholder='Password'></input><br></br>
+        <input id="submit1" type='submit' value='Submit'></input>
         </div>
         <div id={displayed}
         onMouseLeave={() => setDisplayed("grandchild")}
@@ -38,12 +38,13 @@ function Grandchild() {
 
         }}
         >
+        
         <h2> Sign Up</h2>
         <input id='int' type='text' placeholder='First Name' ></input>
         <input id='int' type='text' placeholder='Last Name' ></input>
         <input id='int' type='text' placeholder='User ID' ></input>
         <input id='int' type='text' placeholder='Password'></input><br></br>
-        <input type='button' value='Sign Up' onClick={handleClick2}></input>
+        <input id="submit2" type='submit' value='Sign up' onClick={handleClick2}></input>
         </div>
   
     </>)
